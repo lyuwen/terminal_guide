@@ -59,7 +59,7 @@ The user interface of vim consist of the following part from the top to bottom:
 Vim as three modes: Normal mode, Insert mode, Visual mode
 
 When you open vim for an empty buffer or a file, you would always enter the normal mode.
-This is where you type commands and do all the editing, while the [Insert mode](#insert-mode) is mojarly for typing in texts.
+This is where you type commands and do all the editing, while the [Insert mode](#insert-mode) is mojarly for typing in texts. The idea is that one do all the editing here and type in the Inser mode.
 
 The original navigation key in vim is h, j, k, l, for left, up, down and right, due to the design of the machine where it was originally developed. But now one can also acheive this with the arrow keys. Such acient convention is kept for minimum hand movement.
 
@@ -87,6 +87,10 @@ The basic commands are (unless specified, these commands do not ):
     * b: reverse of e.
     * B: reverse of E.
 
+* Undo and redo
+    * u: undo.
+    * `<C-u>`: redo.
+
 * Searching and replacing
     * %: go to the conterpart of parenthese or bracket.
     * #: search backward for the exact match without any adjacent alphabetical charactors.
@@ -110,5 +114,17 @@ The basic commands are (unless specified, these commands do not ):
 
 ## Insert mode
 
+This is where you type in stuff as in all other editors.
+
+Though there are still features like templates and autocompletions (shortcut `<C-n>`), etc in this mode.
+
 
 ## Visual mode
+
+Visual mode is the selection mode in vim, one can enter from normal mode.
+
+There are different type of visual modes:
+
+* v: normal visual mode.
+* V/`<S-v>`: line visual mode.
+* `<C-v>`: block visual mode, this mode gives you more flexibility to edit texts, such as adding text the multple lines at the same position.
