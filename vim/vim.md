@@ -4,6 +4,7 @@ Since I am a vim user, the text editor I will be introducing is vim.
 
 [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)), one of the most acient and yet popular text editor in the world, which is also one of the two initial members of the [Editor war](https://en.wikipedia.org/wiki/Editor_war). Both of them are almost always available by default with MacOS or a linux system, which enables one to perform text editing on virtually anywhere.
 
+
 ## Upon entering
 
 To enter the vim from bash, simply type:
@@ -44,6 +45,7 @@ would do the job, but when you have accidently modified the file, it would not q
 :x
 ```
 or simply press `ZZ` in the [normal mode](#normal-mode).
+
 
 ## User Interface
 
@@ -98,7 +100,6 @@ The basic commands are (unless specified, these commands do not ):
     * ?: enter searching mode, with backward searching.
     * `:s`: search and replace, will be explain in an independent section since it can get very complicated.
 
-
 * text manipulation
     * r: replace a charactor.
     * R: Enter a replace mode that one could continuously replace the contents in the buffer.
@@ -128,3 +129,44 @@ There are different type of visual modes:
 * v: normal visual mode.
 * V/`<S-v>`: line visual mode.
 * `<C-v>`: block visual mode, this mode gives you more flexibility to edit texts, such as adding text the multple lines at the same position.
+
+
+## Searching and Replacing
+
+Search and replacing in vim uses regular expression rules. And the substitution command is similar to sed command. So we will not elaborate here. But the basic format is as following
+
+* Substitute all
+```vim
+:%s/<pattern>/<replace>/<options>
+```
+where `<pattern>` is the search pattern, `<replace>` is the replace text, `<options>` contains the options including `g` for global, `c` for confirm, etc.
+
+* Substitute current line
+```vim
+:s/<pattern>/<replace>/<options>
+```
+
+* Substitute selection, enter visual mode and start typing `:s/...`.
+```vim
+:'<,'>s/<pattern>/<replace>/<options>
+```
+
+
+## Block editing
+
+For example, in latex tabular environment if you want to add the `&` sign between words to seperate them into columns:
+```latex
+\begin{tabular}[cc]
+  1 2 \\
+  2 3 \\
+\end{tabular}
+```
+
+One can move curser to `2` in the first line, use block visual mode to select `2` and `3`, press `<S-I>`, add `& ` and press `esc`: 
+
+```latex
+\begin{tabular}[cc]
+  1 & 2 \\
+  2 & 3 \\
+\end{tabular}
+```
