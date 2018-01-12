@@ -4,6 +4,13 @@ Since I am a vim user, the text editor I will be introducing is vim.
 
 [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)), one of the most acient and yet popular text editor in the world, which is also one of the two initial members of the [Editor war](https://en.wikipedia.org/wiki/Editor_war). Both of them are almost always available by default with MacOS or a linux system, which enables one to perform text editing on virtually anywhere.
 
+## Table of Contents
+
+For a quick start, one can [skip](#upon-entering) tht TOC section to learn about the basic stuff of vim.
+More detailed elaboration including vimscripts and plugins are discussed the seperate pages.
+
+* [vimrc](vimrc.md) - including my vimrc configuration and introduction to vimscripts.
+* [plugin](plugins.md) - introduction to plugins in vim.
 
 ## Upon entering
 
