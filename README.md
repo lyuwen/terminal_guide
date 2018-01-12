@@ -1,6 +1,6 @@
 # A beginner's guide to terminal world
 
-Per request of my friend, I am composing a beginner's guide to the command line interface **Terminal**, and stuff related to it.
+Per request of my friend, I am composing a beginner's guide to the command line interface **Terminal**, and stuff related to it. The main idea is a hands-on booklet that one can refer to while using the terminal. To achieve mastery, one still needs a lot more to learn.
 
 ## BASH introduction
 
@@ -32,6 +32,7 @@ The most basic commands in the shell are
 |   awk   |             a pattern searching and processing language            |
 |    rm   |                             remove file                            |
 |  touch  |    Create a new file or change the modification time of a file     |
+|    wc   |             count words(-w), charactors(-c), lines(-l)             |
 
 And basic shortcuts are
 
