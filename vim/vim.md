@@ -95,6 +95,8 @@ The basic commands are (unless specified, these commands do not ):
     * E: go to the end of the next word seperated by space.
     * b: reverse of e.
     * B: reverse of E.
+    * gt: go to the tab on the right.
+    * gT: go to the tab on the left.
 
 * Undo and redo
     * u: undo.
@@ -177,3 +179,24 @@ One can move curser to `2` in the first line, use block visual mode to select `2
   2 & 3 \\
 \end{tabular}
 ```
+
+
+## Commands
+
+`:` commands (and functions, macros) are very useful with editing a file, here a few:
+
+* `w`/`write`: write, i.e. save, the current buffer to file.
+* `q`/`quit`: quit vim, on successful if no changes.
+* `x`: save file if changed and quit.
+* `<one of the above>a`/`<one of the above>all`: do the command for all files opened.
+* `e`/`edit`: open a file for edit.
+* `tabnew <file>`: open a new tab, with the specified file if given.
+* `tabnext`: go to the tab on the right.
+* `tabprevious`: go to the tab on the left.
+* `set <something>`: use to set variables (like `filetype`) or stuff like `number`/`nu` or `paste`, etc.
+* `r`/`read`: read from file, use `r!` to read from stdout of a process.
+* `source <file>`: load a file as vim configuration.
+* `<number>`: go to the line of that number.
+* `h`/`help <something>`: open doc, if given arguments open the doc related the the arguments.
+
+There are other commands, as well as some declared by the plugins.
