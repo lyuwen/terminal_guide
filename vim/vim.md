@@ -201,7 +201,9 @@ One can move curser to `2` in the first line, use block visual mode to select `2
 
 There are other commands, as well as some declared by the plugins.
 
+
+
 ---
-[↑](#vim) • [Github](https://github.com/lyuwen/terminal_guide)
+[←](../README.md) • [↑](#vim) • [Github](https://github.com/lyuwen/terminal_guide)
 
 Copyright (C) 2018 by Lyuwen Fu

@@ -14,6 +14,6 @@ But one still needs to know that to comment a line, vimscript uses `"`, differen
 
 
 ---
-[↑](#vimrc) • [Github](https://github.com/lyuwen/terminal_guide)
+[←](vim) • [↑](#vimrc) • [Github](https://github.com/lyuwen/terminal_guide)
 
 Copyright (C) 2018 by Lyuwen Fu
