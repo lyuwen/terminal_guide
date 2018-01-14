@@ -200,3 +200,5 @@ One can move curser to `2` in the first line, use block visual mode to select `2
 * `h`/`help <something>`: open doc, if given arguments open the doc related the the arguments.
 
 There are other commands, as well as some declared by the plugins.
+
+[&uparrow;](#vim)

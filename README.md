@@ -1,6 +1,14 @@
 # A beginner's guide to terminal world
 
-Per request of my friend, I am composing a beginner's guide to the command line interface **Terminal**, and stuff related to it. The main idea is a hands-on booklet that one can refer to while using the terminal. To achieve mastery, one still needs a lot more to learn.
+As per request of my friend, I am composing a beginner's guide to the command line interface **Terminal**, and stuff related to it. The main idea is a hands-on booklet that one can refer to while using the terminal. To achieve mastery, one still needs a lot more to learn.
+
+## More
+
+This page will introduce very basic stuff about bash. 
+Further knowledge will stay seperate for easy navigation.
+
+* [Vim](vim/vim.md)
+* [Shell Programming](shell_programming/shell_programming.md)
 
 ## BASH introduction
 
@@ -49,9 +57,4 @@ And basic shortcuts are
 |  control + r |                    Search command history                    |
 
 
-## More
-
-Further knowledge will stay seperate for easier navigation.
-
-* [Vim](vim/vim.md)
-* [Shell Programming](shell_programming/shell_programming.md)
+[&uparrow;](#a-beginners-guide-to-terminal-world)
