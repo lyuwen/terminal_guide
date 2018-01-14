@@ -57,4 +57,4 @@ And basic shortcuts are
 |  control + r |                    Search command history                    |
 
 
-[&uparrow;](#a-beginners-guide-to-terminal-world)
+[↑](#a-beginners-guide-to-terminal-world)
