@@ -52,7 +52,7 @@ Here we will cover the commands and their features I use the most:
 
 * [directory commands](#directory-commands): `cd`, `mkdir`
 * [copying and moving files](#copying-and-moving-files): 
-    `cp`, `mv`. Remote copying/syncing will be discussed in [Remote access]().
+    `cp`, `mv`. Remote copying/syncing will be discussed in [Remote access](remote_access.md).
 * [sed](#sed)
 * [grep](#grep)
 * [awk](#awk)
