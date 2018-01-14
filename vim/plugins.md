@@ -8,4 +8,5 @@ To browse for for zillions of plugins available on the internet, there is an awe
 
 ---
 [↑](#plugins) • [Github](https://github.com/lyuwen/terminal_guide)
-<div style="text-align: right" color=#7B7D7D> Copyright (C) 2018 by Lyuwen Fu </div>
+
+Copyright (C) 2018 by Lyuwen Fu

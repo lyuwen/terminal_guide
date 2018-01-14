@@ -57,6 +57,7 @@ And basic shortcuts are
 |  control + r |                    Search command history                    |
 
 
-___
+---
 [↑](#a-beginners-guide-to-terminal-world) • [Github](https://github.com/lyuwen/terminal_guide)
-<div style="text-align: right" color=#7B7D7D> Copyright (C) 2018 by Lyuwen Fu </div>
+
+Copyright (C) 2018 by Lyuwen Fu
