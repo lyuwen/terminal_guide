@@ -11,3 +11,8 @@ Vimrc, just like bashrc, is a configuration file allowing one to customize the V
 There is a very good book online that teaches you all about it, [*Learn Vimscript the Hard Way*](http://learnvimscriptthehardway.stevelosh.com). And I will not elaborate since it is a beginner's guide.
 
 But one still needs to know that to comment a line, vimscript uses `"`, different from many programming languages.
+
+
+---
+[↑](#vimrc) • [Github](https://github.com/lyuwen/terminal_guide)
+<div style="text-align: right" color=#7B7D7D> Copyright (C) 2018 by Lyuwen Fu </div>

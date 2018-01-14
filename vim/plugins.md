@@ -4,4 +4,8 @@ There many plugin managers for vim. In my vimrc, I am using vimplug since it is 
 
 To browse for for zillions of plugins available on the internet, there is an awesome web set called [VimAwesome](https://vimawesome.com).
 
-[↑](#plugins)
+[&uparrow;](#plugins)
+
+---
+[↑](#plugins) • [Github](https://github.com/lyuwen/terminal_guide)
+<div style="text-align: right" color=#7B7D7D> Copyright (C) 2018 by Lyuwen Fu </div>
