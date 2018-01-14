@@ -7,8 +7,8 @@ As per request of my friend, I am composing a beginner's guide to the command li
 This page will introduce very basic stuff about bash. 
 Further knowledge will stay seperate for easy navigation.
 
-* [Vim](vim/vim.md)
-* [Shell Programming](shell_programming/shell_programming.md)
+* [Vim](vim/README.md)
+* [Shell Programming](shell_programming/README.md)
 
 ## BASH introduction
 

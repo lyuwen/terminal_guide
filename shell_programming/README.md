@@ -1,4 +1,4 @@
-# Shell programming
+# Shell Programming
 
 Speaking of shell programming, one would always comes across commands that they never used before.
 It is a good habit to first try

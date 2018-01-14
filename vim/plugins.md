@@ -5,6 +5,6 @@ There many plugin managers for vim. In my vimrc, I am using vimplug since it is 
 To browse for for zillions of plugins available on the internet, there is an awesome web set called [VimAwesome](https://vimawesome.com).
 
 ---
-[←](vim) • [↑](#plugins) • [Github](https://github.com/lyuwen/terminal_guide)
+[←](README.md) • [↑](#plugins) • [Github](https://github.com/lyuwen/terminal_guide)
 
 Copyright (C) 2018 by Lyuwen Fu
