@@ -3,4 +3,4 @@
 
 
 
-[&uparrow;](#shell-programming)
+[↑](#shell-programming)
