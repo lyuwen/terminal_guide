@@ -8,7 +8,7 @@ This page will introduce very basic stuff about bash.
 Further knowledge will stay seperate for easy navigation.
 
 * [Vim](vim/README.md)
-* [Shell Programming](shell_programming/README.md)
+* [Shell](shell/README.md)
 
 ## BASH introduction
 
