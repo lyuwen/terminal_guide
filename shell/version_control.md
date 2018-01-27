@@ -135,3 +135,10 @@ diffget Re "For Remote
 If you want neither, simply delete this whole region and add the lines you desire.
 
 Then hit `:wqa` to quit the mergetool, and the result will be automatically staged.
+
+
+
+---
+[←](README.md) • [↑](#remote-access) • [Github](https://github.com/lyuwen/terminal_guide)
+
+Copyright (C) 2018 by Lyuwen Fu
