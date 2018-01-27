@@ -45,6 +45,7 @@ The following are often used in shell scripts:
 * [Programming](programming.md): Condition and loops, piping, etc.
 * [Remote access](remote_access.md): SSH.
 * [Building system](build_system.md): Building system such as `make` and `scons`.
+* [Version Control](version_control.md): Keep track of the works.
 
 ## Commands
 
