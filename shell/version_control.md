@@ -55,6 +55,42 @@ works with git in `git difftool`, the following tweek would make work seamlessly
     git config --global mergetool.prompt false # Disable prompt
     ```
 
+## Partial commit
+
+Sometimes when you are editing a file, you know part of them are right but not sure for the other part. It'll be great
+that you can just commit the part you are confident about and then go back to deal with the rest. There are two ways to
+make this happen, the first is in the command line, and the second is in vim with vim-fugitive.
+
+In command line, one just need to use the command
+
+```bash
+git add -p <file>
+```
+
+and follow the instructions.
+
+But if you are currently in vim and do not want to quit the program to commit it, then you need to first go to the diff
+mode with vim command
+
+```vim
+Gdiff
+```
+
+make sure you are in the right panel which shows the current file. Visual select the part you want to commit and type the
+command
+
+```vim
+diffput
+```
+
+then just save the index file on the left and quit. Now if you take a look at the status with 
+
+```vim
+Gstatus
+```
+
+you would see that you just staged the part of the file you just selected. And afterwards you can use `Gcommit` to commit it.
+
 
 ## Git merge
 
